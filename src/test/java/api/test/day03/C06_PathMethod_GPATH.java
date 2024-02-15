@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class C06_PathMethod {
+public class C06_PathMethod_GPATH {
     @BeforeClass
     public void beforeClass() {
         RestAssured.baseURI = "https://www.krafttechexlab.com/sw/api/v1";

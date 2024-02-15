@@ -1,0 +1,40 @@
+MicroService = WebService = API(Application Programming Interface)
+
+1. API nedir?
+2. API Test nedir?
+Farklı sorular ve farklı cevapları var.
+
+Referans
+API testleri için referansımız swagger dokümanı.
+
+API nedir?
+Request ve response.
+
+API test nedir?
+Atılan API request neticesinde dönen responsu'un beklendiği gibi olup olmadığının kontrol edilmesi.
+
+Tools for API testing
+1- POSTMAN (Manual/Otomasyon)
+2- Java + RestAssured(dependency/kütüphane) (Otomasyon)
+
+API Types
+1. SOAP API
+2. REST API...***
+
+Why API Test is important?
+1. Erken test zamansal ve parasal tasarruf sağlar.
+2. UI'dan çok daha hızlı.
+3. No locator, no sync.
+
+What is HTTP request and types?
+1. GET
+2. POST
+3. 
+   3.1.PUT
+   3.2.PATCH
+4. DELETE   
+
+Http Status Code
+2XX --> request başarılı, bende sana başarılı bir response döndürüyorum
+4XX --> Request'te problem var, PROBLEM SENDE, İSTEĞİ DÜZGÜN ATAMADIN
+5XX --> Server problemi, şimdi Devops'lar düşünsün

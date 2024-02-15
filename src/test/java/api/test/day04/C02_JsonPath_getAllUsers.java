@@ -15,7 +15,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class C02_JsonPAth_getAllUsers {
+public class C02_JsonPath_getAllUsers {
     @BeforeClass
     public void beforeClass() {
         RestAssured.baseURI="https://www.krafttechexlab.com/sw/api/v1";
