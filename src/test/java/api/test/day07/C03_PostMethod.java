@@ -130,5 +130,7 @@ public class C03_PostMethod {
         String expectedEmail = email;
         String actualEmail = response.path("email");
         Assert.assertEquals(actualEmail, expectedEmail);
+
+
     }
 }
