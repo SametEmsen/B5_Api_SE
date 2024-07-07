@@ -33,7 +33,7 @@ public class C03_PostMethod {
     ...
      */
 
-    private String karaftBaseUrl = "https://www.krafttechexlab.com/sw/api/v1";
+    private String kraftBaseUrl = "https://www.krafttechexlab.com/sw/api/v1";
 
     @Test
     public void post_with_hardcode() {
@@ -50,7 +50,7 @@ public class C03_PostMethod {
                 .accept(ContentType.JSON)
                 .body(jsonBody)
                 .when()
-                .post(karaftBaseUrl + "/allusers/register");
+                .post(kraftBaseUrl + "/allusers/register");
         response.prettyPrint();
 
         Assert.assertEquals(response.statusCode(), 200);
@@ -82,7 +82,7 @@ public class C03_PostMethod {
                 .accept(ContentType.JSON)
                 .body(map)
                 .when()
-                .post(karaftBaseUrl + "/allusers/register");
+                .post(kraftBaseUrl + "/allusers/register");
 
         response.prettyPrint();
 
@@ -114,7 +114,7 @@ public class C03_PostMethod {
                 .accept(ContentType.JSON)
                 .body(kraftRegisterUser)
                 .when()
-                .post(karaftBaseUrl + "/allusers/register");
+                .post(kraftBaseUrl + "/allusers/register");
 
         response.prettyPrint();
 

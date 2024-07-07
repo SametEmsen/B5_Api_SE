@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class C01_GpathSyntaxPractice {
 
-    private String karaftBaseUrl="https://www.krafttechexlab.com/sw/api/v1";
+    private String kraftBaseUrl ="https://www.krafttechexlab.com/sw/api/v1";
     @Test
     public void gpathPractice() {
 
@@ -22,7 +22,7 @@ public class C01_GpathSyntaxPractice {
                 .queryParam("pagesize", 50)
                 .queryParam("page", 1)
                 .when()
-                .get(karaftBaseUrl + "/allusers/alluser");
+                .get(kraftBaseUrl + "/allusers/alluser");
 
         //get name of first user
         String nameOfFirstUser=response.path("name[0]");
